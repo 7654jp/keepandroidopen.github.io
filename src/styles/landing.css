@@ -975,6 +975,124 @@
       margin-top: 1.25rem;
     }
 
+    .share-heading {
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--pico-muted-color);
+      margin-top: 2rem;
+      margin-bottom: 0.75rem;
+    }
+
+    /* ===== SPREAD ROW (share buttons — class names avoid ad-blocker triggers) ===== */
+    .spread-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.6rem;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .spread-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      padding: 0.55rem 1rem;
+      border-radius: 2rem;
+      font-size: 0.82rem;
+      font-weight: 700;
+      text-decoration: none;
+      color: #fff;
+      border: 2px solid transparent;
+      transition: transform 0.15s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    }
+
+    .spread-pill svg {
+      flex-shrink: 0;
+    }
+
+    .spread-pill:hover {
+      transform: translateY(-2px);
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .spread-pill:active {
+      transform: translateY(0);
+    }
+
+    /* Platform styles — light mode */
+    .spread-xcom {
+      background: #14171A;
+      border-color: #333;
+      box-shadow: 0 2px 8px rgba(20, 23, 26, 0.2);
+    }
+    .spread-xcom:hover { box-shadow: 0 4px 16px rgba(20, 23, 26, 0.3); border-color: #555; }
+
+    .spread-masto {
+      background: #6364FF;
+      box-shadow: 0 2px 8px rgba(99, 100, 255, 0.25);
+    }
+    .spread-masto:hover { box-shadow: 0 4px 16px rgba(99, 100, 255, 0.35); border-color: #8b8cff; }
+
+    .spread-bsky {
+      background: #0085FF;
+      box-shadow: 0 2px 8px rgba(0, 133, 255, 0.25);
+    }
+    .spread-bsky:hover { box-shadow: 0 4px 16px rgba(0, 133, 255, 0.35); border-color: #4da6ff; }
+
+    .spread-lnkd {
+      background: #0A66C2;
+      box-shadow: 0 2px 8px rgba(10, 102, 194, 0.25);
+    }
+    .spread-lnkd:hover { box-shadow: 0 4px 16px rgba(10, 102, 194, 0.35); border-color: #3d8dd4; }
+
+    .spread-fb {
+      background: #1877F2;
+      box-shadow: 0 2px 8px rgba(24, 119, 242, 0.25);
+    }
+    .spread-fb:hover { box-shadow: 0 4px 16px rgba(24, 119, 242, 0.35); border-color: #5a9bf5; }
+
+    /* Dark mode — lighter backgrounds so buttons pop against dark page */
+    [data-theme="dark"] .spread-xcom {
+      background: #2a2e33;
+      border-color: #555;
+    }
+    [data-theme="dark"] .spread-xcom:hover { border-color: #888; }
+
+    [data-theme="dark"] .spread-masto {
+      background: #5254d9;
+      border-color: #7879f1;
+    }
+    [data-theme="dark"] .spread-masto:hover { border-color: #a0a1ff; }
+
+    [data-theme="dark"] .spread-bsky {
+      background: #0070d6;
+      border-color: #3d99e6;
+    }
+    [data-theme="dark"] .spread-bsky:hover { border-color: #7ab8f0; }
+
+    [data-theme="dark"] .spread-lnkd {
+      background: #0959a5;
+      border-color: #2d7ec7;
+    }
+    [data-theme="dark"] .spread-lnkd:hover { border-color: #5a9fe0; }
+
+    [data-theme="dark"] .spread-fb {
+      background: #1466cc;
+      border-color: #4088e0;
+    }
+    [data-theme="dark"] .spread-fb:hover { border-color: #70a8f0; }
+
+    @media (max-width: 600px) {
+      .spread-pill {
+        padding: 0.45rem 0.8rem;
+        font-size: 0.78rem;
+      }
+    }
+
     /* ===== GLOBAL REFINEMENTS ===== */
     details {
       margin-bottom: 0.75rem;

@@ -9,6 +9,7 @@ import QuoteTicker from '../../components/QuoteTicker.astro';
 import signatures from '../../data/signatures.yaml';
 import { logoPath } from '../../lib/signatures';
 import LanguagePicker from '../../components/LanguagePicker.astro';
+import ShareRow from '../../components/ShareRow.astro';
 import { languages } from '../../i18n/config';
 import { getLandingStrings, getTranslationPercent } from '../../i18n/locales';
 import { markdownify, isRtl } from '../../i18n/config';
@@ -88,6 +89,9 @@ const ctaPath = `/${locale}/cta/`;
         {t.hero_kicker}
       </p>
       <a href="#what" class="scroll-cue" aria-label="Read more">&#8595;</a>
+
+      <p class="share-heading">{t.closing_share_heading}</p>
+      <ShareRow t={t} />
     </section>
 
     <!-- What's happening -->
@@ -201,8 +205,8 @@ const ctaPath = `/${locale}/cta/`;
     <!-- Signatories -->
     <section id="signatories" class="signatories-landing">
       <div class="sig-rule"></div>
-      <h2>All those opposed&hellip;</h2>
-      <p class="sig-count">{signatures.length} organizations from {sigCountryCount} countries have signed the <a href="/open-letter">open letter</a></p>
+      <h2><Fragment set:html={t.signatories_heading} /></h2>
+      <p class="sig-count"><Fragment set:html={t.signatories_count.replace('{count}', String(signatures.length)).replace('{countries}', String(sigCountryCount))} /> <a href="/open-letter"><Fragment set:html={t.signatories_open_letter_link} /></a></p>
       <QuoteTicker direction="right" variant="sigs" duration={160}>
         {shuffledSigs.map((sig: any) => (
           <a href={`https://${sig.url}`} target="_blank" class="ticker-card tc-sig">
@@ -213,7 +217,7 @@ const ctaPath = `/${locale}/cta/`;
         ))}
       </QuoteTicker>
       <p style="text-align:center; margin-top: 1rem;">
-        <a href="/open-letter" class="more-link">Read the full open letter and thank the signatories &rarr;</a>
+        <a href="/open-letter" class="more-link">{t.signatories_more} &rarr;</a>
       </p>
     </section>
 
@@ -304,6 +308,7 @@ const ctaPath = `/${locale}/cta/`;
       <p class="closing-lede">{t.closing_line1}<br>{t.closing_line2}</p>
       <p>{t.closing_detail}</p>
       <p class="closing-cta"><strong>{t.closing_cta}</strong></p>
+      <ShareRow t={t} />
     </section>
   </main>
 
