@@ -30,17 +30,27 @@
 
 # Active translations for this locale:
 
+# [en] title: "Keep Android Open"
 title: "Panatilihing Bukas ang Android"
+# [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
 description: >-
   Isinusulong ang Android bilang isang libre at bukas na plataporma kung saan kahit sino ay maaaring lumikha ng mga app.
+# [en] contact_header: "Contact"
 contact_header: "Konkakin"
+# [en] contact_email: "Email"
 contact_email: "Email"
+# [en] site_problems_header: "Problems"
 site_problems_header: "Mga Problema"
+# [en] site_report_issues: "Report Site Issues"
 site_report_issues: "Mag-ulat ng Mga Isyu sa Site"
+# [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
 site_disclaimer: >-
   **Disclaimer:** Ang website na ito ay isang komunidad na pinapatakbo at walang layuning commercial. Ito ay ginagamit para sa mga layuning pang-impormasyon at pang-edukasyon lamang.
+# [en] site_privacy: "**Privacy:** This site uses no cookies and performs no user tracking or logging."
 site_privacy: "**Pribasiya:** Ang site na ito ay walang cookies at hindi nagta-track o nagla-log ng mga gumagamit."
+# [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**Copyright:** Wala. Ang proyektong ito ay markado."
+# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
 open_letter_cta: "Basahin ang aming open letter na tumututol sa programa ng Android Developer Verification"
 
 #

@@ -30,17 +30,27 @@
 
 # Active translations for this locale:
 
+# [en] title: "Keep Android Open"
 title: "Giữ Android luôn mở"
+# [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
 description: "Vận động để Android vẫn là một nền tảng tự do và mở cho mọi người xây dựng ứng dụng."
+# [en] contact_header: "Contact"
 contact_header: "Liên hệ"
+# [en] contact_email: "Email"
 contact_email: "Email"
+# [en] site_problems_header: "Problems"
 site_problems_header: "Sự cố"
+# [en] site_report_issues: "Report Site Issues"
 site_report_issues: "Báo cáo lỗi trang web"
+# [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
 site_disclaimer: >-
   **Tuyên bố miễn trừ:** Trang web này là một dự án phi thương mại do cộng đồng thực hiện. Nó chỉ được vận hành cho mục đích thông tin và giáo dục.
+# [en] site_privacy: "**Privacy:** This site uses no cookies and performs no user tracking or logging."
 site_privacy: >-
   **Quyền riêng tư:** Trang web này không sử dụng cookie và không thực hiện theo dõi hay ghi log người dùng.
+# [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**Bản quyền:** Không có. Tác phẩm này được đánh dấu"
+# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
 open_letter_cta: "Đọc thư ngỏ phản đối chương trình Xác minh Nhà phát triển Android"
 
 #

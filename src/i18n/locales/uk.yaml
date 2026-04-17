@@ -30,36 +30,59 @@
 
 # Active translations for this locale:
 
+# [en] title: "Keep Android Open"
 title: "Збережемо Android відкритим"
+# [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
 description: >-
   Виступаємо за те, щоб Android залишався вільною, відкритою платформою, на якій кожен може створювати застосунки.
+# [en] contact_header: "Contact"
 contact_header: "Контакти"
+# [en] contact_email: "Email"
 contact_email: "Електронна пошта"
+# [en] site_problems_header: "Problems"
 site_problems_header: "Проблеми"
+# [en] site_report_issues: "Report Site Issues"
 site_report_issues: "Повідомити про проблеми з сайтом"
+# [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
 site_disclaimer: >-
   **Відмова від відповідальності:** Цей вебсайт є некомерційним проєктом, керованим спільнотою. Він функціонує виключно в інформаційних та освітніх цілях.
+# [en] site_privacy: "**Privacy:** This site uses no cookies and performs no user tracking or logging."
 site_privacy: >-
   **Конфіденційність:** Цей сайт не використовує файли cookie та не відстежує і не реєструє дії користувачів.
+# [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**Авторське право:** Відсутнє. Ця робота позначена"
+# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
 open_letter_cta: "Прочитайте наш відкритий лист проти програми верифікації розробників Android"
 # Hero
+# [en] hero_lede: "Your phone is about to stop being yours."
 hero_lede: "Ваш телефон скоро перестане бути вашим"
+# [en] hero_countdown_label: "days until lockdown"
 hero_countdown_label: "днів до закриття"
+# [en] hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and hande..."
 hero_sub: "Починаючи з вересня 2026, тихе оновлення, без згоди запущене Google, **заблокує всі Android додатки** чиї розробники не зареєструвалися в Google, і не підписали з ними контракт, і не сплатили їм за його..."
+# [en] hero_kicker: "Every app and every device, worldwide, with no opt-out."
 hero_kicker: "Кожен додаток і кожен пристрій у світі, без можливості відмовитись"
 # What Google is doing
+# [en] what_heading: "What Google is doing"
 what_heading: "Що Google робить"
+# [en] what_intro: "In August 2025, Google [announced](https://developer.android.com/developer-verification) a new requirement: starting September 2026, **every Android app developer must register centrally with Googl..."
 what_intro: |
   В серпні 2025, Google [оголосив](https://developer.android.com/developer-verification) нові вимоги: починаючи із вересня 2026, **кожен розробник Android додатків має зареєструватись
   в централізованій системі Google**, перед тим як їхнє програмне забезпечення зможе бути встановленим на будь-який пристрій. Не лише для Play Store додатків: для всіх додатків. Це включає додатки поширювані між друзями, розповсюджувані
   через [F-Droid](https://f-droid.org), створені ентузіастами для власного використання. Незалежні розробники, церковні і громадські організації, ентузіасти будуть позбавлені можливості розробляти і розповсюджувати свої програми.
+# [en] what_registration: "Registration requires:"
 what_registration: "Регістрація передбачає:"
+# [en] what_req_fee: "Paying a fee to Google"
 what_req_fee: "Сплачення комісії Google"
+# [en] what_req_terms: "Agreeing to Google's Terms and Conditions"
 what_req_terms: "Погодження із Умовами використання Google"
+# [en] what_req_id: "Surrendering your government-issued identification"
 what_req_id: "Надання державного посвідчення особи"
+# [en] what_req_signing: "Providing evidence of your private signing key"
 what_req_signing: "Забезпечення доказів про наявність у вас вашого приватного ключа підпису"
+# [en] what_req_appids: "Listing all current and all future application identifiers"
 what_req_appids: "Перелік усіх поточних і майбутніх індентифікаторів додатків"
+# [en] what_pullquote: "If a developer does not comply, their apps get silently blocked on every Android device worldwide."
 what_pullquote: "Якщо розробник не буде дотримуватись цих вимог, його додатки будуть тихо заблоковані на кожному Android пристрої в світі"
 
 

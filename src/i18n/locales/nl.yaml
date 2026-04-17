@@ -30,16 +30,26 @@
 
 # Active translations for this locale:
 
+# [en] title: "Keep Android Open"
 title: "Houd Android Open"
+# [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
 description: "Pleitend voor Android als vrij, open platform waarop iedereen apps kan bouwen."
+# [en] contact_header: "Contact"
 contact_header: "Contact"
+# [en] contact_email: "Email"
 contact_email: "E-mail"
+# [en] site_problems_header: "Problems"
 site_problems_header: "Problemen"
+# [en] site_report_issues: "Report Site Issues"
 site_report_issues: "Meld problemen met deze site"
+# [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
 site_disclaimer: >-
   **Disclaimer:** Deze website wordt onderhouden door een niet-commerciële gemeenschap en is uitsluitend bedoeld voor informatieve en educatieve doeleinden.
+# [en] site_privacy: "**Privacy:** This site uses no cookies and performs no user tracking or logging."
 site_privacy: "**Privacy:** Deze site gebruikt geen cookies en doet niet aan gebruikers-tracking of logging."
+# [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**Copyright:** Geen. Dit werk is beschikbaar onder"
+# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
 open_letter_cta: "Lees de open brief over ons verzet tegen Android Developer Verification"
 
 #

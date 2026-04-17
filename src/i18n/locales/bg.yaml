@@ -30,18 +30,28 @@
 
 # Active translations for this locale:
 
+# [en] title: "Keep Android Open"
 title: "Keep Android Open"
+# [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
 description: >-
   Движение в подкрепа на запазването на Android като безплатна и отворена платформа за изграждане на приложения от всички.
+# [en] contact_header: "Contact"
 contact_header: "Контакти"
+# [en] contact_email: "Email"
 contact_email: "Имейл"
+# [en] site_problems_header: "Problems"
 site_problems_header: "Проблеми"
+# [en] site_report_issues: "Report Site Issues"
 site_report_issues: "Сигнал за проблеми в страницата"
+# [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
 site_disclaimer: >-
   **Отказ от правна отговорност:** Тази страница е дело на общи усилия с нетърговски цели на общността. Поддържа се единствено с информационни и образователни цели.
+# [en] site_privacy: "**Privacy:** This site uses no cookies and performs no user tracking or logging."
 site_privacy: >-
   **Поверителност:** Тази страница не използва бисквитки и не извършва проследяване или регистриране на действията на потребителите.
+# [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**Авторско право:** Неограничено. Използваният лиценз е"
+# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
 open_letter_cta: "Прочетете нашето отворено писмо срещу програмата за проверка на разработчици в Android"
 
 #

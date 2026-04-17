@@ -30,18 +30,28 @@
 
 # Active translations for this locale:
 
+# [en] title: "Keep Android Open"
 title: "Android-ды ашық сақтайық"
+# [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
 description: >-
   Android еркін әрі ашық платформа болып қала берсін, кез келген адам қосымша жасай алсын деп қолдаймыз.
+# [en] contact_header: "Contact"
 contact_header: "Байланыс"
+# [en] contact_email: "Email"
 contact_email: "Электрондық пошта"
+# [en] site_problems_header: "Problems"
 site_problems_header: "Мәселелер"
+# [en] site_report_issues: "Report Site Issues"
 site_report_issues: "Сайт мәселелерін хабарлау"
+# [en] site_disclaimer: "**Disclaimer:** This website is a community-driven noncommercial undertaking. It is operated solely for informational and educational purposes."
 site_disclaimer: >-
   **Ескерту**: Бұл сайтты қоғамдастық жүргізеді, коммерциялық мақсаты жоқ. Тек хабардар ету мен білім беру үшін жұмыс істейді.
+# [en] site_privacy: "**Privacy:** This site uses no cookies and performs no user tracking or logging."
 site_privacy: >-
   **Құпиялылық**: Бұл сайт cookie файлдарын пайдаланбайды, пайдаланушыларды бақыламайды және деректерін жинамайды.
+# [en] site_copyright: "**Copyright:** None. This work is marked"
 site_copyright: "**Авторлық құқық**: Жоқ. Бұл жұмыс қоғамдық меншікке берілген:"
+# [en] open_letter_cta: "Read our open letter opposing the Android Developer Verification program"
 open_letter_cta: "Android әзірлеушілерді тексеру бағдарламасына қарсы ашық хатымызды оқыңыз"
 
 #
